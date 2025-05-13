@@ -33,26 +33,6 @@ A cinematic horror experience built on top of a classic game — **Tic-Tac-Toe**
 
 ---
 
-## 🧱 Folder Structure
-
-```
-3d-horror-tictactoe/
-├── assets/              # Textures, fonts, audio (if any)
-├── src/                 # Game logic and rendering files
-│   ├── main.cpp         # Entry point
-│   ├── rendering.cpp    # OpenGL rendering logic
-│   ├── input.cpp        # Keyboard/mouse input
-│   ├── game.cpp         # Game state, win detection
-│   └── jumpscare.cpp    # Jumpscare and timers
-├── include/             # Headers (e.g., stb_image.h)
-├── shaders/             # GLSL shaders (optional)
-├── README.md
-├── CMakeLists.txt       # (if using CMake)
-└── horror_tictactoe.sln # Visual Studio Solution (Windows)
-```
-
----
-
 ## 💻 Build Instructions
 
 ### ✅ Option 1: Visual Studio (Windows)
