@@ -1,6 +1,6 @@
 # 🎮 3D Tic-Tac-Toe (MARK-3) (OpenGL)
 
-A cinematic horror experience built on top of a classic game — **Tic-Tac-Toe**, but in **3D** and with a dark twist. This C++ OpenGL project immerses players in a tense, time-limited psychological duel with visual and sensory feedback — including **smooth camera transitions**, **vibration effects**, and a **jumpscare sequence** upon failure to win.
+A cinematic horror experience built on top of a classic game — **Tic-Tac-Toe**, but in **3D** and with a dark twist. This C++ OpenGL project immerses players in a tense, time-limited psychological duel with visual and sensory feedback.
 
 <p align="center">
   <img src="assets/preview.gif" alt="Gameplay Preview" width="80%">
