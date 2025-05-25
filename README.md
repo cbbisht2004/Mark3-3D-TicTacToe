@@ -1,9 +1,9 @@
-# 🎮 3D Tic-Tac-Toe (MARK-3) (OpenGL)
+# 🎮 3D Tic-Tac-Toe (MARK^3) (OpenGL)
 
 A cinematic horror experience built on top of a classic game — **Tic-Tac-Toe**, but in **3D** and with a dark twist. This C++ OpenGL project immerses players in a tense, time-limited psychological duel with visual and sensory feedback.
 
 <p align="center">
-  <img src="assets/preview.gif" alt="Gameplay Preview" width="80%">
+  <img src="assets/1.png" alt="Gameplay Preview" width="50%">
 </p>
 
 ---
@@ -16,20 +16,20 @@ A cinematic horror experience built on top of a classic game — **Tic-Tac-Toe**
 - 🌀 **Mouse-driven camera rotation**
 - 🎯 **Quick perspective switches** via number keys (1–6)
 - 💥 **Smooth win detection** with cube highlighting and auto-reset
-- ⌛ **Inactivity countdown** → triggers a **cinematic jumpscare**
-- 🔊 Ready for audio & music integration via **SDL2/OpenAL**
+- ⌛ **Inactivity countdown** → triggers a **Game-Over**
+- 🔊 Audio & Music integration via **Windows.h/mmsystem.h**
 
 ---
 
 ## 🧰 Dependencies
 
-| Library         | Purpose                            | Required | Notes                                  |
-|----------------|------------------------------------|----------|----------------------------------------|
-| **OpenGL**      | Core rendering                     | ✅       | Preinstalled on most platforms         |
-| **GLUT/FreeGLUT** | Window creation, input, main loop | ✅       | Use FreeGLUT for modern features       |
-| **GLU**         | OpenGL utilities                   | ✅       | Generally bundled with OpenGL          |
-| **stb_image.h** | Texture loading                    | ✅       | Header-only, include manually          |
-| **SDL2** / **OpenAL** | Audio playback                | 🔄 Optional | Future support for music/sfx           |
+| Library           | Purpose                               | Required   | Notes                                   |
+|-------------------|---------------------------------------|----------- |-----------------------------------------|
+| **OpenGL**        | Core rendering                        | ✅        | Preinstalled on most platforms           |
+| **GLUT/FreeGLUT** | Window creation, input, main loop     | ✅        | Use FreeGLUT for modern features         |
+| **GLU**           | OpenGL utilities                      | ✅        | Generally bundled with OpenGL            |
+| **stb_image.h**   | Texture loading                       | ✅        | Header-only, include manually            |
+| **Windows.h**     | Audio playback                        | ✅        | Future support for music/sfx             |
 
 ---
 
@@ -109,8 +109,8 @@ cmake --build .
 ## 📸 Screenshots
 
 <p float="left">
-  <img src="assets/start_overlay.png" width="45%">
-  <img src="assets/gameplay.png" width="45%">
+  <img src="assets/2.png" width="45%">
+  <img src="assets/3.png" width="45%">
 </p>
 
 ---
