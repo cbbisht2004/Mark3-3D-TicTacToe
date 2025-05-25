@@ -1,4 +1,4 @@
-# 🎮 3D Tic-Tac-Toe (MARK^3) (OpenGL)
+# 🎮 MARK^3 - a 3d TicTacToe Experience (OpenGL)
 
 A cinematic horror experience built on top of a classic game — **Tic-Tac-Toe**, but in **3D** and with a dark twist. This C++ OpenGL project immerses players in a tense, time-limited psychological duel with visual and sensory feedback.
 
