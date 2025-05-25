@@ -62,8 +62,8 @@ A cinematic horror experience built on top of a classic game — **Tic-Tac-Toe**
 
 ```bash
 # Clone and create build directory
-git clone https://github.com/yourusername/TicTacToe-
-cd TicTacToe-
+git clone https://github.com/yourusername/Mark3-3D-TicTacToe
+cd Mark3-3D-TicTacToe
 mkdir build && cd build
 
 # Generate build files (make sure vcpkg toolchain is used if needed)
@@ -75,24 +75,23 @@ cmake --build .
 
 ## 🎮 Controls
 
-| Key              | Action                             |
+| Key              | Action                              |
 |------------------|-------------------------------------|
 | **Mouse Drag**   | Rotate camera around 3D grid        |
 | **Arrow Keys**   | Adjust camera rotation manually     |
 | **1–6**          | Snap to preset camera views         |
 | **Mouse Left**   | Place your symbol (X/O)             |
-| **ESC**          | Exit the game                       |
 
 ---
 
 ## 📦 Future Roadmap
 
-- 🔊 Sound effects and ambient music
 - 💡 Dynamic lighting & shadows
 - 🧛 AI opponent with increasing difficulty
 - 🌌 Skybox & shader-based horror visual effects
 - 📽️ Video intro sequence before game start
 - 💾 Save/Load horror progress (?!)
+- 📈 Score-Tracker for Each Player
 
 ---
 
@@ -101,7 +100,7 @@ cmake --build .
 - Uses **GLUT's idle function** for animation timing.
 - Camera movement utilizes **eased interpolation** (smoothstep) and **subtle vibration**.
 - Win detection scans **49 potential victory lines** in a 3x3x3 grid.
-- **Jumpscare logic** uses `glutTimerFunc` for delayed triggering.
+- **Game Over** uses `glutTimerFunc` for delayed triggering.
 - Modular design — extendable into a full horror experience.
 
 ---
