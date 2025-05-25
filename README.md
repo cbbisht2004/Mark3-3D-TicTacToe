@@ -30,7 +30,7 @@ A cinematic horror experience built on top of a classic game — **Tic-Tac-Toe**
 | **GLU**           | OpenGL utilities                      | ✅        | Generally bundled with OpenGL            |
 | **stb_image.h**   | Texture loading                       | ✅        | Header-only, include manually            |
 | **Windows.h**     | Audio playback                        | ✅        | Future support for music/sfx             |
-
+| **SOIL**	        | Texture loading (PNG, JPG, etc.)      | ✅	       | Lightweight, great for loading images over 3D objects
 ---
 
 ## 💻 Build Instructions
@@ -46,7 +46,7 @@ A cinematic horror experience built on top of a classic game — **Tic-Tac-Toe**
 
 2. **Install dependencies:**
    ```bash
-   .\vcpkg install freeglut stb
+   .\vcpkg install freeglut stb soil
    ```
 
 3. **Integrate with Visual Studio:**
@@ -54,7 +54,7 @@ A cinematic horror experience built on top of a classic game — **Tic-Tac-Toe**
    .\vcpkg integrate install
    ```
 
-4. **Open** `horror_tictactoe.sln` and **build the project**.
+4. **Open** `1.sln` and **build the project**.
 
 ---
 
@@ -62,8 +62,8 @@ A cinematic horror experience built on top of a classic game — **Tic-Tac-Toe**
 
 ```bash
 # Clone and create build directory
-git clone https://github.com/yourusername/3d-horror-tictactoe
-cd 3d-horror-tictactoe
+git clone https://github.com/yourusername/TicTacToe-
+cd TicTacToe-
 mkdir build && cd build
 
 # Generate build files (make sure vcpkg toolchain is used if needed)
