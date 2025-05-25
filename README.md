@@ -1,4 +1,4 @@
-# 🎮 Mark³ - a 3D-TicTacToe Experience (GLUT)
+# 🎮 Mark³ - a 3D-TicTacToe Experience (OPENGL)
 
 A cinematic horror experience built on top of a classic game — **Tic-Tac-Toe**, but in **3D** and with a dark twist. This C++ OpenGL project immerses players in a tense, time-limited psychological duel with visual and sensory feedback.
 
